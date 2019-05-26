@@ -110,7 +110,7 @@ namespace DotnetSpider
 		}
 
 		/// <summary>
-		/// 添加数据流处理器
+		/// 添加数据流处理器 Add data stream processor
 		/// </summary>
 		/// <param name="dataFlow">数据流处理器</param>
 		/// <returns></returns>
@@ -124,7 +124,7 @@ namespace DotnetSpider
 		}
 
 		/// <summary>
-		/// 添加请求供应器
+		/// 添加请求供应器 Add request provider
 		/// </summary>
 		/// <param name="supply">请求供应器</param>
 		/// <returns></returns>
@@ -137,9 +137,9 @@ namespace DotnetSpider
 		}
 
 		/// <summary>
-		/// 添加请求
+		/// 添加请求	Add request
 		/// </summary>
-		/// <param name="requests">请求</param>
+		/// <param name="requests">请求 request</param>
 		/// <returns></returns>
 		[MethodImpl(MethodImplOptions.Synchronized)]
 		public Spider AddRequests(params Request[] requests)
